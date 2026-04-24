@@ -18,7 +18,6 @@
 </head>
 <body class="min-h-screen bg-gray-100 font-sans flex flex-col">
 
-    <!-- Header Section -->
     <header class="bg-white shadow-md border-b-4 border-blue-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div class="flex items-center gap-6">
@@ -46,7 +45,6 @@
         </div>
     </header>
 
-    <!-- Main Content Menu -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow w-full">
         <div class="mb-8">
             <h3 class="text-2xl font-bold text-gray-800">Menu Utama</h3>
@@ -55,7 +53,6 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             
-            <!-- Fail Pengurusan Modal Trigger -->
             <a href="#" onclick="bukaModalFail(); return false;" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-blue-50 hover:bg-blue-100 border-blue-200 cursor-pointer">
                 <div class="flex items-center justify-between mb-4">
                     <div class="p-3 bg-white rounded-xl shadow-sm">
@@ -66,7 +63,6 @@
                 <p class="text-sm text-gray-700">Akses senarai semak dan dokumen pengurusan utama</p>
             </a>
 
-            <!-- Penilaian Kendiri -->
             <a href="https://drive.google.com/drive/folders/14MvpoKPc50JiJlYIEEHfso9XCU2_Xpne?usp=sharing" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-green-50 hover:bg-green-100 border-green-200">
                 <div class="flex items-center justify-between mb-4">
                     <div class="p-3 bg-white rounded-xl shadow-sm">
@@ -77,7 +73,6 @@
                 <p class="text-sm text-gray-700">Borang dan instrumen penilaian kendiri</p>
             </a>
 
-            <!-- Pegawai Penilai Modal Trigger -->
             <a href="#" onclick="bukaModalPP(); return false;" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-purple-50 hover:bg-purple-100 border-purple-200 cursor-pointer">
                 <div class="flex items-center justify-between mb-4">
                     <div class="p-3 bg-white rounded-xl shadow-sm">
@@ -88,8 +83,7 @@
                 <p class="text-sm text-gray-700">Ruangan khusus untuk Pegawai Penilai (PP)</p>
             </a>
 
-            <!-- Senarai PP dan PYD -->
-            <a href="https://drive.google.com/file/d/1b8mG1XuN38mt6VeyUrA_4hGTbRqRbizz/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-orange-50 hover:bg-orange-100 border-orange-200">
+            <a href="https://drive.google.com/file/d/1-h73xcNuZK1MiTfG857ayZQAx643guym/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-orange-50 hover:bg-orange-100 border-orange-200">
                 <div class="flex items-center justify-between mb-4">
                     <div class="p-3 bg-white rounded-xl shadow-sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
@@ -99,8 +93,7 @@
                 <p class="text-sm text-gray-700">Senarai penuh Pegawai Penilai dan Pegawai Yang Dinilai</p>
             </a>
 
-            <!-- Dokumen Rujukan -->
-            <a href="https://drive.google.com/drive/folders/1HRshi_1PCwutlv3Qp94AgxiyCKn2cVFj?usp=sharing" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-red-50 hover:bg-red-100 border-red-200">
+            <a href="#" onclick="bukaModalDokumen(); return false;" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-red-50 hover:bg-red-100 border-red-200 cursor-pointer">
                 <div class="flex items-center justify-between mb-4">
                     <div class="p-3 bg-white rounded-xl shadow-sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
@@ -110,7 +103,6 @@
                 <p class="text-sm text-gray-700">Garis panduan, pekeliling dan manual ePrestasi</p>
             </a>
 
-            <!-- Sistem ePrestasi -->
             <a href="https://eprestasi.moe.gov.my/" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl border-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-teal-50 hover:bg-teal-100 border-teal-200">
                 <div class="flex items-center justify-between mb-4">
                     <div class="p-3 bg-white rounded-xl shadow-sm">
@@ -124,7 +116,6 @@
         </div>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-auto py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p class="text-sm">
@@ -136,7 +127,6 @@
         </div>
     </footer>
 
-    <!-- MODAL 1: Fail Pengurusan PBPPP -->
     <div id="failModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4 hidden">
         <div class="bg-white rounded-2xl shadow-xl max-w-4xl w-full p-6 modal-animate flex flex-col max-h-[90vh]">
             <div class="flex justify-between items-center mb-4">
@@ -165,6 +155,7 @@
                             <td class="px-4 py-4">
                                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Fail Pengurusan PBPPP (Fail Terperingkat).</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -173,8 +164,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">2.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/11-uEEi3PDU77XJjCbGuNS5FwS4I4E-Lf/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Surat Arahan Pelaksanaan PBPPP.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -183,8 +175,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">3.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/1SobLcXEujlyo9EKZCwZ1jRIKvwNNAGGw/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Senarai nama Jawatankuasa PBPPP organisasi yang dicetak dari e-Prestasi.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -193,8 +186,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">4.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/1O4d3oxuiZULWjuw3z61L1E_d5urOUwFL/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Surat Panggilan dan minit Mesyuarat Jawatankuasa PBPPP organisasi.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -203,8 +197,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">5.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/1Bc7QCHUOMYXAqVzEJk9lnmN5mpE4vIHq/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Rekod pemakluman pelaksanaan PBPPP pada tahun semasa kepada warga organisasi.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -215,6 +210,7 @@
                             <td class="px-4 py-4">
                                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Borang Pemantauan PBPPP oleh Bahagian/ JPN/ PPD (jika ada).</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -223,8 +219,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">7.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/1b8mG1XuN38mt6VeyUrA_4hGTbRqRbizz/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Senarai Pegawai Yang Dinilai (PYD) dan Pegawai Penilai (PP) yang dicetak dari e-Prestasi.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -235,6 +232,7 @@
                             <td class="px-4 py-4">
                                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Rekod PP menyerahkan salinan Borang Skor kepada PYD.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -245,6 +243,7 @@
                             <td class="px-4 py-4">
                                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Rekod PP menyerahkan salinan Borang Keberhasilan kepada PYD.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -255,6 +254,7 @@
                             <td class="px-4 py-4">
                                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Salinan jadual/ perancangan penjajaran masa penilaian oleh PP.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -263,8 +263,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">11.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/1VOJdwU8nDVNaOFvg0JW3CLrKd6rZSbZF/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Bukti PP dimaklum/ dibekalkan instrumen PBPPP, GP Instrumen, Panduan Pegawai Penilai, GP Komponen Keberhasilan dan lain-lain.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -273,8 +274,9 @@
                         <tr class="hover:bg-blue-50 transition-colors">
                             <td class="px-4 py-4 text-center font-semibold">12.</td>
                             <td class="px-4 py-4">
-                                <a href="https://drive.google.com/file/d/10BZz2pVE9fsTgFxeZcyseRChwdqO8y98/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Surat panggilan dan minit mesyuarat Jawatankuasa PBPPP bagi pelarasan markah akhir PYD (jika ada).</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -285,6 +287,7 @@
                             <td class="px-4 py-4">
                                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 hover:underline font-medium flex items-start gap-2 group">
                                     <span>Tiada dokumen yang tidak berkaitan dengan PBPPP.</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             </td>
                             <td class="px-4 py-4 text-center"><input type="checkbox" class="w-5 h-5 text-blue-600 rounded cursor-pointer"></td>
@@ -303,7 +306,6 @@
         </div>
     </div>
 
-    <!-- MODAL 2: Senarai Pegawai Penilai -->
     <div id="ppModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4 hidden">
         <div class="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 modal-animate">
             <div class="flex justify-between items-center mb-6">
@@ -313,30 +315,30 @@
                 </button>
             </div>
             
-            <div class="flex flex-col gap-3 max-h-[60vh] overflow-y-auto pr-2">
-                <a href="https://drive.google.com/drive/folders/1zJmivTr5zt5mvv4tafp7A8Lz9VT_8-lA?usp=sharing" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+            <div class="flex flex-col gap-3">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
                     <span>Aziz bin Tahir</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/><path d="M10 15H6a4 4 0 0 0-4 4v2"/></svg>
                 </a>
-                <a href="https://drive.google.com/drive/folders/14UrXk60RCrI8-wBBzLXmajTKrLuIvlI8?usp=sharing" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
                     <span>Mohamad Abidin bin Sipek</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/><path d="M10 15H6a4 4 0 0 0-4 4v2"/></svg>
                 </a>
-                <a href="https://drive.google.com/drive/folders/1yZDwH0fci1--qYTIvRk46BZhXBj78cyA?usp=sharing" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
                     <span>Ling Mee Choo</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/><path d="M10 15H6a4 4 0 0 0-4 4v2"/></svg>
                 </a>
-                <a href="https://drive.google.com/drive/folders/1GNRJ5scCTrJHtUMHKZlbPA11tjBnHrpF?usp=sharing" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
                     <span>Salihin bin Ahmad</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/><path d="M10 15H6a4 4 0 0 0-4 4v2"/></svg>
                 </a>
-                <a href="https://drive.google.com/drive/folders/1eCKYws9yWfNEcKEq8piDU3vXbFcDEhrP?usp=sharing" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 text-purple-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
                     <span>Nur Hidayu binti Yusop</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/><path d="M10 15H6a4 4 0 0 0-4 4v2"/></svg>
                 </a>
             </div>
-            
-            <div class="mt-6 flex justify-end pt-4 border-t border-gray-100">
+
+            <div class="mt-6 flex justify-end">
                 <button onclick="tutupModalPP()" class="px-5 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-xl transition-colors">
                     Tutup
                 </button>
@@ -344,42 +346,27 @@
         </div>
     </div>
 
-    <!-- MODAL 3: Dokumen Rujukan -->
     <div id="dokumenModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4 hidden">
-        <div class="bg-white rounded-2xl shadow-xl max-w-2xl w-full p-6 modal-animate">
+        <div class="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 modal-animate">
             <div class="flex justify-between items-center mb-6">
-                <div>
-                    <h3 class="text-xl md:text-2xl font-bold text-gray-800">Dokumen Rujukan</h3>
-                    <p class="text-sm text-red-600 font-medium">Panduan, Pekeliling dan Manual</p>
-                </div>
-                <button onclick="tutupModalDokumen()" class="text-gray-500 hover:text-red-500 transition-colors pb-6">
+                <h3 class="text-2xl font-bold text-gray-800">Dokumen Rujukan</h3>
+                <button onclick="tutupModalDokumen()" class="text-gray-500 hover:text-red-500 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
                 </button>
             </div>
             
-            <div class="flex flex-col gap-4 max-h-[60vh] overflow-y-auto pr-2">
-                <a href="#" class="p-4 border border-gray-200 rounded-xl hover:bg-red-50 hover:border-red-200 transition-colors flex items-start gap-4">
-                    <div class="p-2 bg-red-100 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-gray-800">Garis Panduan Pelaksanaan PBPPP</h4>
-                        <p class="text-sm text-gray-600 mt-1">Dokumen rasmi tatacara penilaian bersepadu edisi terkini.</p>
-                    </div>
+            <div class="flex flex-col gap-3">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-red-50 hover:bg-red-100 border border-red-200 text-red-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+                    <span>Pegawai Penilai</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                 </a>
-                
-                <a href="#" class="p-4 border border-gray-200 rounded-xl hover:bg-red-50 hover:border-red-200 transition-colors flex items-start gap-4">
-                    <div class="p-2 bg-red-100 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-gray-800">Manual Pengguna Sistem ePrestasi</h4>
-                        <p class="text-sm text-gray-600 mt-1">Panduan langkah demi langkah penggunaan portal ePrestasi untuk PP dan PYD.</p>
-                    </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-left px-5 py-4 bg-red-50 hover:bg-red-100 border border-red-200 text-red-800 font-medium rounded-xl transition-all hover:shadow-md hover:-translate-y-0.5 flex items-center justify-between">
+                    <span>Pegawai Yang Dinilai</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                 </a>
             </div>
-            
-            <div class="mt-6 flex justify-end pt-4 border-t border-gray-100">
+
+            <div class="mt-6 flex justify-end">
                 <button onclick="tutupModalDokumen()" class="px-5 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-xl transition-colors">
                     Tutup
                 </button>
@@ -387,51 +374,63 @@
         </div>
     </div>
 
-    <!-- Skrip Interaksi -->
     <script>
-        // Kemas kini tahun automatik di Footer
-        document.getElementById('tahunSemasa').textContent = new Date().getFullYear();
+        // Set tahun automatik di footer
+        document.getElementById('tahunSemasa').innerText = new Date().getFullYear();
 
-        // Fungsi Modal Fail Pengurusan
+        // Fungsi buka/tutup Modal Fail Pengurusan (Senarai Semak)
+        const failModal = document.getElementById('failModal');
+        
         function bukaModalFail() {
-            document.getElementById('failModal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // Halang scroll pada background
+            failModal.classList.remove('hidden');
         }
+
         function tutupModalFail() {
-            document.getElementById('failModal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
+            failModal.classList.add('hidden');
         }
 
-        // Fungsi Modal Pegawai Penilai
+        // Tutup modal jika pengguna klik di luar kotak putih
+        failModal.addEventListener('click', function(e) {
+            if (e.target === failModal) {
+                tutupModalFail();
+            }
+        });
+
+        // Fungsi buka/tutup Modal Pegawai Penilai
+        const modal = document.getElementById('ppModal');
+        
         function bukaModalPP() {
-            document.getElementById('ppModal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
+            modal.classList.remove('hidden');
         }
+
         function tutupModalPP() {
-            document.getElementById('ppModal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
+            modal.classList.add('hidden');
         }
 
-        // Fungsi Modal Dokumen Rujukan
+        // Tutup modal jika pengguna klik di luar kotak putih
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                tutupModalPP();
+            }
+        });
+
+        // Fungsi buka/tutup Modal Dokumen Rujukan
+        const dokumenModal = document.getElementById('dokumenModal');
+        
         function bukaModalDokumen() {
-            document.getElementById('dokumenModal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-        }
-        function tutupModalDokumen() {
-            document.getElementById('dokumenModal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
+            dokumenModal.classList.remove('hidden');
         }
 
-        // Tutup modal apabila pengguna klik pada kawasan latar belakang gelap
-        window.onclick = function(event) {
-            const failModal = document.getElementById('failModal');
-            const ppModal = document.getElementById('ppModal');
-            const dokumenModal = document.getElementById('dokumenModal');
-            
-            if (event.target == failModal) tutupModalFail();
-            if (event.target == ppModal) tutupModalPP();
-            if (event.target == dokumenModal) tutupModalDokumen();
+        function tutupModalDokumen() {
+            dokumenModal.classList.add('hidden');
         }
+
+        // Tutup modal jika pengguna klik di luar kotak putih
+        dokumenModal.addEventListener('click', function(e) {
+            if (e.target === dokumenModal) {
+                tutupModalDokumen();
+            }
+        });
     </script>
 </body>
 </html>
